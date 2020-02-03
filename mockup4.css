@@ -1,0 +1,248 @@
+#myCanvas {
+	background-color: #0B3947;
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	transition: background-color ease-in 2s;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 60px;
+	font-style: italic;
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 2s ease-in;
+}
+
+.star {
+	position: relative;
+  
+  display: inline-block;
+  width: 0;
+  height: 0;
+  
+  margin-left: .9em;
+  margin-right: .9em;
+  margin-bottom: 1.2em;
+  
+  border-right:  .3em solid transparent;
+  border-bottom: .7em  solid #b3b1a2;
+  border-left:   .3em solid transparent;
+
+  /* Controlls the size of the stars. */
+  font-size: 36px;
+
+  transition: border-bottom ease-out 0.25s;
+  transition: transform ease-out 0.5s;
+}
+
+.star:before {
+   content: '';
+    
+    display: block;
+    width: 0;
+    height: 0;
+    
+    position: absolute;
+    top: .6em;
+    left: -1em;
+  
+    border-right:  1em solid transparent;
+    border-bottom: .7em  solid #b3b1a2;
+    border-left:   1em solid transparent;
+  
+    transform: rotate(-35deg);
+ }
+
+ .star.lit:before {
+ 	content: '';
+    
+    display: block;
+    width: 0;
+    height: 0;
+    
+    position: absolute;
+    top: .6em;
+    left: -1em;
+  
+    border-right:  1em solid transparent;
+	border-bottom: .7em  solid #ffeb3d;
+	border-left:   1em solid transparent;
+
+	/* box-shadow:
+        0 0 40px 5px #fff48f,  
+        0 0 60px 10px #fff; */
+  
+    transform: rotate(-35deg);
+    transition: border-bottom ease-out 0.25s;
+}
+
+.star:after {
+	content: '';
+
+	display: block;
+	width: 0;
+	height: 0;
+
+	position: absolute;
+	top: .6em;
+	left: -1em;
+
+	border-right:  1em solid transparent;
+	border-bottom: .7em  solid #b3b1a2;
+	border-left:   1em solid transparent;
+
+	transform: rotate(-35deg);
+ 	transform: rotate(35deg);
+}
+
+.star.lit:after {
+	content: '';
+
+	display: block;
+	width: 0;
+	height: 0;
+
+	position: absolute;
+	top: .6em;
+	left: -1em;
+
+	border-right:  1em solid transparent;
+	border-bottom: .7em  solid #ffeb3d;
+	border-left:   1em solid transparent;
+
+	/*box-shadow:
+        0 0 40px 5px #fff48f,  
+        0 0 60px 10px #fff; */
+
+	transform: rotate(-35deg);
+ 	transform: rotate(35deg);
+ 	transition: border-bottom ease-out 0.25s;
+}
+
+.circle {
+  height: 120px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+}
+
+#moon {
+	height: 150px;
+ 	width: 150px;
+	top: 100px;
+ 	left: 250px;
+ 	background-color: #BCC7CB;
+ 	transition: box-shadow ease-in 2s;
+}
+
+#s1 {
+	top: -30px;
+  left: 80px;
+}
+
+#s2 {
+	top: 50px;
+  left: 400px;
+}
+
+#s3 {
+	top: 200px;
+  left: -130px;
+}
+
+#s4 {
+	top: 130px;
+	left: 20px;
+}
+
+#s5 {
+	top: 250px;
+	left: 100px;
+}
+
+#s6 {
+	top: -100px;
+	left: -50px;
+}
+
+
+.rectangle {
+  height: 100px;
+  width: 10px;
+  background-color: #BCC7CB;
+  position: absolute;
+}
+
+#r9 {
+	top: 180px;
+	left: 310px;
+	width: 30px;
+	height: 10px;
+}
+
+.oval {
+  height: 25px;
+  width: 10px;
+  background-color: #6B5D48;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#c1 {
+	height: 40px;
+	width: 40px;
+	background-color: #879296;
+	top: 120px;
+	left: 330px;
+}
+
+#c2 {
+	height: 20px;
+	width: 30px;
+	background-color: #879296;
+	top: 210px;
+	left: 340px;
+}
+
+#c3 {
+	height: 20px;
+	width: 25px;
+	background-color: #879296;
+	top: 160px;
+	left: 360px;
+}
+
+#c4 {
+	height: 30px;
+	width: 15px;
+	background-color: #879296;
+	top: 200px;
+	left: 270px;
+	transform: rotate(-35deg);
+}
+
+#o1 {
+	top: 150px;
+	left: 300px;
+}
+
+#o2 {
+	top: 150px;
+	left: 340px;
+}
+
+#o3 {
+	width: 30px;
+	height: 20px;
+	top: 180px;
+	left: 310px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 2s ease-in;
+}
