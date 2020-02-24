@@ -1,0 +1,192 @@
+#myCanvas {
+	background-color: #38A9C2;
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	transition: background-color ease-in 2s;
+	overflow: scroll;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 60px;
+	font-style: italic;
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 2s ease-in;
+}
+
+.fish {
+	position: absolute;
+}
+
+.circle {
+  height: 50px;
+  width: 90px;
+  position: absolute;
+  background-color: #FFB673;
+  border-radius: 50%;
+}
+
+.triangle {
+	 width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
+  
+  border-right:30px solid #FFB673; 
+  position: absolute;
+}
+
+#c1 {
+	top: 740px;
+  left: 80px;
+}
+
+#t1 {
+	top: 735px;
+	left: 160;
+}
+
+#c2 {
+	top: 860px;
+  left: 400px;
+}
+
+#t2 {
+	top: 855px;
+	left: 480px;
+}
+
+#c3 {
+	top: 550px;
+  left: 90px;
+}
+
+#t3 {
+	top: 545px;
+  left: 170px;
+}
+
+#c4 {
+	top: 200px;
+	left: 200px;
+}
+
+#t4 {
+	top: 195px;
+	left: 280px;
+}
+
+#c5 {
+	top: 460px;
+	left: 500px;
+}
+
+#t5 {
+	top: 455px;
+	left: 580px;
+}
+
+#c6 {
+	top: 340px;
+	left: 400px;
+}
+
+#t6 {
+	top: 335px;
+	left: 480px;
+}
+
+#c7 {
+	top: 280px;
+	left: 20px;
+}
+
+#t7 {
+	top: 275px;
+	left: 100px;
+}
+
+#trunk {
+	height: 100px;
+  width: 200px;
+  top: 1100px;
+  left: 250px;
+  position: absolute;
+  background-color: #716350;
+  z-index: 3;
+}
+
+#belt {
+	height: 20px;
+	width: 200px;
+	top: 1100px;
+	left: 250px;
+	position: absolute;
+	background-color: #aaadb3;
+	z-index: 4;
+}
+
+#clasp {
+	height: 40px;
+	width: 20px;
+	top: 1090px;
+	left: 340px;
+	position: absolute;
+	background-color: #aaadb3;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+#lid {
+	height: 100px;
+  width: 200px;
+  top: 1050px;
+  left: 250px;
+  position: absolute;
+  background-color: #716350;
+  border-radius: 50%;
+}
+
+.open {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 1s ease-out;
+}
+
+#open-lid {
+	top: 1030px;
+  	left: 220px;
+  	position: absolute;
+	border-top: 100px solid #716350;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 180px;
+    border-radius: 30px;
+}
+
+#inside-lid {
+	top: 1050px;
+  	left: 250px;
+  	position: absolute;
+  	background-color: #524b41;
+  	height: 80px;
+  	width: 200px;
+}
+
+#gold {
+	top: 1070px;
+  	left: 250px;
+  	position: absolute;
+  	background-color: #ffce1e;
+  	height: 80px;
+  	width: 200px;
+  	border-radius: 50%;
+  	z-index: 2;
+}
