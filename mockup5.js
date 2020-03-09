@@ -8,9 +8,27 @@ $(function(){
    		}
  	runIt();
 
+ 	function moveBubble() {
+	 	$(".bubble").each(function(index) {
+	 		$(this).animate({top: '-40px'}, 10000);
+	 	})
+ 	}
+
+ 	function createBubble() {
+ 		let top = "top: " + Math.floor((Math.random() * 600) + 500) + "px;";
+ 		let left = "left: " + Math.floor((Math.random() * 600) + 20) + "px;";
+ 		$('<div class="bubble" style="' + top + left + '"></div>').appendTo('.treasure');
+ 	}
+ 	//createBubble();
+ 	setInterval(function(){
+    	createBubble();
+    	moveBubble(); 
+	}, 5000);
+
  	$(".treasure").click(function() {
  		$(".open").css("visibility", "visible");
  		$(".open").css("opacity", "1");
+ 		$("#gold").css("box-shadow", "0 -20px 40px 20px #fdf4d2")
  	})
 
 	/*$(".fish").mouseenter(function(){
