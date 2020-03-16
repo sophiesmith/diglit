@@ -23,12 +23,14 @@ $(function(){
  	setInterval(function(){
     	createBubble();
     	moveBubble(); 
-	}, 5000);
+	}, 2000);
 
  	$(".treasure").click(function() {
  		$(".open").css("visibility", "visible");
  		$(".open").css("opacity", "1");
- 		$("#gold").css("box-shadow", "0 -20px 40px 20px #fdf4d2")
+ 		$("#gold").css("box-shadow", "0 -20px 40px 20px #fdf4d2");
+ 		$("h1").css("visibility", "visible");
+		$("h1").css("opacity", "1");
  	})
 
 	/*$(".fish").mouseenter(function(){
