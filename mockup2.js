@@ -1,6 +1,18 @@
 $(function(){
 
+	function runIt() {
+		$( ".cloud" ).each(function( index ) {
+       		$(this).animate({top:'+=10'}, 1000);
+       		$(this).animate({top:'-=10'}, 1000, runIt);
+       	});
+   		}
+ 	runIt();
+
 	$(".cloud").mouseenter(function(){
+		if (!($(this).hasClass("done"))) {
+			$(this).stop(true);
+		}
+		
 	  	$(this).animate({left: "-300px"}, 2000);
 	  	$(this).addClass("done");
 	  	let win = true;

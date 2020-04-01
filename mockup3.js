@@ -1,8 +1,8 @@
 $(function(){
 		function runIt() {
 		$( ".cloud" ).each(function( index ) {
-       		$(this).animate({top:'+=20'}, 1000);
-       		$(this).animate({top:'-=20'}, 1000, runIt);
+       		$(this).animate({top:'+=25'}, 700);
+       		$(this).animate({top:'-=25'}, 700, runIt);
        	});
    		}
  	runIt();

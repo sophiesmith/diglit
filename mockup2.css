@@ -20,8 +20,8 @@ h1 {
 }
 
 .circle {
-  height: 90px;
-  width: 180px;
+  height: 70px;
+  width: 150px;
   position: fixed;
   background-color: #F1FCFF;
   border-radius: 50%;

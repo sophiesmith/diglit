@@ -1,6 +1,6 @@
 $(function(){
 
-	$(".rainbow").mouseenter(function(){
+	$(".rainbow").click(function(){
 	  	let color;
 	  	if ($(this).is($("#c1"))) {
 	  		color = "#EF7474";
@@ -28,6 +28,7 @@ $(function(){
 		if (win) {
 			$("#myCanvas").css("background-color", "#A9EAFF");
 			$("#c7").css("background-color", "#A9EAFF");
+			$("#water").css("background-color", "#81DA7A");
 			$("h1").css("visibility", "visible");
 			$("h1").css("opacity", "1");
 			$("#o3").css("visibility", "visible");

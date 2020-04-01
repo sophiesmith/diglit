@@ -1,0 +1,290 @@
+#myCanvas {
+	background-color: #A9EAFF;
+	width: 720px;
+	height: 500px;
+	position: absolute;
+	transition: background-color ease-in 2s;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 60px;
+	font-style: italic;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 2s ease-in;
+}
+
+.circle {
+  height: 130px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F48BAB;
+}
+
+.rectangle {
+  height: 200px;
+  width: 30px;
+  background-color: #7FDB7D;
+  position: absolute;
+}
+
+.petal {
+  height: 100px;
+  width: 40px;
+  background-color: #F48BAB;
+  border-radius: 50%;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 0.5s ease-in;
+}
+
+.center {
+	transition: visibility 1s, opacity 0.5s ease-in;
+}
+
+.pistil {
+	background-color: #F6DE60;
+	height: 50px;
+	width: 50px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s ease-in;
+}
+
+/*Flower 1*/
+#pistil1 {
+	top: 255px;
+	left: 95px;
+}
+
+#c1 {
+	top: 200px;
+	left: 70px;
+}
+
+#p1 {
+	top: 180px;
+	left: 100px;
+}
+
+#p2 {
+	top: 200px;
+	left: 140px;
+	transform: rotate(45deg);
+}
+
+#p3 {
+	top: 260px;
+	left: 140px;
+	transform: rotate(135deg);
+}
+
+#p4 {
+	top: 280px;
+	left: 100px;
+}
+
+#p5 {
+	top: 200px;
+	left: 60px;
+	transform: rotate(-45deg);
+}
+
+#p6 {
+	top: 260px;
+	left: 60px;
+	transform: rotate(-135deg);
+}
+
+#p7 {
+	top: 230px;
+	left: 160px;
+	transform: rotate(90deg);
+}
+
+#p8 {
+	top: 230px;
+	left: 40px;
+	transform: rotate(-90deg);
+}
+
+
+
+
+
+
+/*#c2 {
+	top: 200px;
+	left: 190px;
+}*/
+
+/*Flower 2*/
+#c3 {
+	top: 200px;
+	left: 310px;
+}
+
+#pistil2 {
+	top: 255px;
+	left: 335px;
+}
+
+#p9 {
+	top: 180px;
+	left: 340px;
+}
+
+#p10 {
+	top: 200px;
+	left: 380px;
+	transform: rotate(45deg);
+}
+
+#p11 {
+	top: 260px;
+	left: 380px;
+	transform: rotate(135deg);
+}
+
+#p12 {
+	top: 280px;
+	left: 340px;
+}
+
+#p13 {
+	top: 200px;
+	left: 300px;
+	transform: rotate(-45deg);
+}
+
+#p14 {
+	top: 260px;
+	left: 300px;
+	transform: rotate(-135deg);
+}
+
+#p15 {
+	top: 230px;
+	left: 400px;
+	transform: rotate(90deg);
+}
+
+#p16 {
+	top: 230px;
+	left: 280px;
+	transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+
+/*#c4 {
+	top: 200px;
+	left: 430px;
+}*/
+/*Flower 3*/
+#c5 {
+	top: 200px;
+	left: 550px;
+}
+
+#pistil3 {
+	top: 255px;
+	left: 575px;
+}
+
+#p17 {
+	top: 180px;
+	left: 580px;
+}
+
+#p18 {
+	top: 200px;
+	left: 620px;
+	transform: rotate(45deg);
+}
+
+#p19 {
+	top: 260px;
+	left: 620px;
+	transform: rotate(135deg);
+}
+
+#p20 {
+	top: 280px;
+	left: 580px;
+}
+
+#p21 {
+	top: 200px;
+	left: 540px;
+	transform: rotate(-45deg);
+}
+
+#p22 {
+	top: 260px;
+	left: 540px;
+	transform: rotate(-135deg);
+}
+
+#p23 {
+	top: 230px;
+	left: 640px;
+	transform: rotate(90deg);
+}
+
+#p24 {
+	top: 230px;
+	left: 520px;
+	transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+#r1 {
+	top: 300px;
+	left: 105px;
+}
+
+#r2 {
+	top: 300px;
+	left: 225px;
+}
+
+#r3 {
+	top: 300px;
+	left: 345px;
+}
+
+#r4 {
+	top: 300px;
+	left: 465px;
+}
+
+#r5 {
+	top: 300px;
+	left: 585px;
+}
+
+
+
+
+
+

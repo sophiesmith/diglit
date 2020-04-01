@@ -15,6 +15,7 @@ h1 {
 	top: 60%;
 	left: 25%;
 	color: white;
+	z-index: 5;
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 0s, opacity 2s ease-in;
@@ -29,7 +30,7 @@ h1 {
 .circle {
 	position: absolute;
     margin: auto;
-    top: 0;
+    top: 100;
     right: 0;
     bottom: 0;
     left: 0;
@@ -99,10 +100,10 @@ h1 {
 #water {
 	height: 280px;
 	width: 700px;
-	background-color: #457254;
-	opacity: 40%;
-	top: 45%;
+	background-color: #737873;
+	top: 60%;
 	z-index: 2;
+	transition: background-color ease-in 2s;
 }
 
 #r1 {
