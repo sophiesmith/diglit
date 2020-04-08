@@ -22,45 +22,45 @@ h1 {
 .circle {
   height: 120px;
   width: 250px;
-  position: relative;
+  position: fixed;
   background-color: #F1FCFF;
   border-radius: 50%;
 }
 
 #c1 {
 	top: 40px;
-  left: 100px;
-}
-
-#c2 {
-	top: 50px;
-  left: 400px;
-}
-
-#c3 {
-	top: 0px;
   left: 50px;
 }
 
+#c2 {
+	top: 0px;
+  left: 420px;
+}
+
+#c3 {
+	top: 200px;
+  left: 0px;
+}
+
 #c4 {
-	top: -500px;
-	left: 20px;
+	top: 390px;
+	left: 120px;
 }
 
 #c5 {
-	top: -650px;
-	left: 400px;
+	top: 160px;
+	left: 300px;
 }
 
 #c6 {
-	top: -580px;
-	left: 470px;
+	top: 350px;
+	left: 430px;
 }
 #sun {
 	height: 150px;
   width: 150px;
-	top: 100px;
-  left: 250px;
+	top: 110px;
+  left: 260px;
   background-color: #FFF06C;
 }
 

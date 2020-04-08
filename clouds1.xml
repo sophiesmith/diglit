@@ -1,0 +1,137 @@
+<level name="Clouds 1">
+	<skill>mouseover</skill>
+
+	<win-transitions>
+		<sky>color</sky>
+		<smile>visibility</smile>
+	</win-transitions>
+
+	<colors>
+		<cloud>#F1FCFF</cloud>
+		<sun>#FFF06C</sun>
+		<sun-face>#6B5D48</sun-face>
+		<sky-initial>#9eacb0</sky-initial>
+		<sky-win>#A9EAFF</sky-win>
+	</colors>
+
+
+	<sizes>
+		<canvas-width>700px</canvas-width>
+		<canvas-height>500px</canvas-height>
+		<cloud-width>250px</cloud-width>
+		<cloud-height>120px</cloud-height>
+		<sun>150px</sun>
+		<ray-width>10px</ray-width>
+		<ray-height>100px</ray-height>
+		<eye-width>10px</eye-width>
+		<eye-height>25px</eye-height>
+		<smile-width>30px</smile-width>
+		<smile-height>10px</smile-height>
+	</sizes>
+
+
+	<sun>
+		<top>110px</top>
+		<left>260px</left>
+
+		<eye>
+			<top>150px</top>
+			<left>300px</left>
+		</eye>
+
+		<eye>
+			<top>150px</top>
+			<left>340px</left>
+		</eye>
+
+		<smile>
+			<top>180px</top>
+			<left>310px</left>
+		</smile>
+
+		<rays>
+			<ray>
+				<top>30px</top>
+				<left>320px</left>
+				<rotate>0deg</rotate>
+			</ray>
+
+			<ray>
+				<top>230px</top>
+				<left>320px</left>
+				<rotate>0deg</rotate>
+			</ray>
+
+			<ray>
+				<top>130px</top>
+				<left>420px</left>
+				<rotate>90deg</rotate>
+			</ray>
+
+			<ray>
+				<top>130px</top>
+				<left>220px</left>
+				<rotate>90deg</rotate>
+			</ray>
+
+			<ray>
+				<top>60px</top>
+				<left>400px</left>
+				<rotate>45deg</rotate>
+			</ray>
+
+			<ray>
+				<top>60px</top>
+				<left>240px</left>
+				<rotate>135deg</rotate>
+			</ray>
+
+			<ray>
+				<top>200px</top>
+				<left>400px</left>
+				<rotate>-45deg</rotate>
+			</ray>
+
+			<ray>
+				<top>200px</top>
+				<left>240px</left>
+				<rotate>-135deg</rotate>
+			</ray>
+
+		</rays>
+	</sun>
+
+
+	<clouds>
+		<cloud>
+			<top>40px</top>
+			<left>50px</left>
+		</cloud>
+
+		<cloud>
+			<top>0px</top>
+			<left>420px</left>
+		</cloud>
+
+		<cloud>
+			<top>200px</top>
+			<left>0px</left>
+		</cloud>
+
+		<cloud>
+			<top>390px</top>
+			<left>120px</left>
+		</cloud>
+
+		<cloud>
+			<top>160px</top>
+			<left>300px</left>
+		</cloud>
+
+		<cloud>
+			<top>350px</top>
+			<left>430px</left>
+		</cloud>
+	</clouds>
+
+</level>
