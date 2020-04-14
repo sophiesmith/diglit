@@ -1,0 +1,72 @@
+{"level": [
+	{"skill": "click"},
+	{"transitions": [
+		{"star": {
+			"description": "", 
+			"duration": 2,
+			"direction": ""
+		}},
+		{"moon": {
+			"description": "",
+			"duration": 2
+		}},
+		{"smile": {
+			"description": "on win, becomes visible", 
+			"duration": 2
+		}}
+	]},
+
+	{"colors": {
+		"star-initial": "#b3b1a2",
+		"star-done": "#f9e74d",
+		"moon": "#BCC7CB",
+		"moon-face": "#6B5D48",
+		"crater": "#879296",
+		"sky": "#0B3947"
+	}},
+
+	{"sizes": [
+		{"canvas": {"width": 700, "height": 500}},
+		{"star": {"width": 0, "height": }},
+		{"moon": {"width": 150, "height": 150}},
+		{"eye": {"width": 10, "height": 25}},
+		{"smile": {"width": 30, "height": 10}},
+	]},
+
+	{"shapes": {
+		"star": "star",
+		"moon": "circle",
+		"crater": "oval",
+		"eye": "oval",
+		"smile": "semi oval"
+	}},
+
+	{"moon": [
+		{"top": 100, "left": 250},
+
+		{"eyes": [
+			{"top": 150, "left": 300},
+			{"top": 150, "left": 340}
+		]},
+
+		{"smile":
+			{"top": 180, "left": 310}
+		},
+
+		{"craters": [
+			{"top": 120, "left": 330, "rotate": 0, "width": 40, "height": 40},
+			{"top": 210, "left": 340, "rotate": 0, "width": 30, "height": 20},
+			{"top": 160, "left": 360, "rotate": 0, "width": 25, "height": 20},
+			{"top": 200, "left": 270, "rotate": -35, "width": 15, "height": 30},
+		]}
+	]},
+
+	{"stars": [
+		{"top": 150, "left": 80},
+		{"top": 290, "left": 300},
+		{"top": 350, "left": 50},
+		{"top": 60, "left": 420},
+		{"top": 200, "left": 500},
+		{"top": 420, "left": 450},
+	]}
+]}

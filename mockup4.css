@@ -20,7 +20,7 @@ h1 {
 }
 
 .star {
-	position: relative;
+	position: fixed;
   
   display: inline-block;
   width: 0;
@@ -142,33 +142,33 @@ h1 {
 }
 
 #s1 {
-	top: -30px;
+	top: 150px;
   left: 80px;
 }
 
 #s2 {
-	top: 50px;
-  left: 400px;
+	top: 290px;
+  left: 300px;
 }
 
 #s3 {
-	top: 200px;
-  left: -130px;
+	top: 350px;
+  left: 50px;
 }
 
 #s4 {
-	top: 130px;
-	left: 20px;
+	top: 60px;
+	left: 420px;
 }
 
 #s5 {
-	top: 250px;
-	left: 100px;
+	top: 200px;
+	left: 500px;
 }
 
 #s6 {
-	top: -100px;
-	left: -50px;
+	top: 420px;
+	left: 450px;
 }
 
 
