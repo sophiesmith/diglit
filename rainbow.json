@@ -1,0 +1,92 @@
+{"level": [
+	{"skill": "click"},
+	{"transitions": [
+		{"rainbow-band": {
+			"description": "on click, colors turns from color-inital to its respective color", 
+			"duration": 0
+		}},
+		{"sun": {
+			"description": "on win, becomes visible",
+			"duration": 2
+		}},
+		{"canvas": {
+			"description": "on win, color turns from color-inital to blue",
+			"duration": 2
+		}},
+		{"grass": {
+			"description": "on win, color turns from color-inital to green",
+			"duration": 2
+		}}
+	]},
+
+	{"shapes": {
+		"rainbow-band": "oval",
+		"sun": "circle",
+		"ray": "rectangle",
+		"grass": "rectangle",
+		"eye": "oval",
+		"smile": "semi oval"
+	}},
+
+	{"canvas": {
+		"color-inital": "#9eacb0", "color": "#A9EAFF", 
+		"width": 700, "height": 500
+	}},
+
+	{"grass": {
+		"color-inital": "#737873", "color": "#81DA7A", 
+		"width": 700, "height": 280,
+		"top": 300, "left": 0
+	}},
+
+	{"sun": [
+		{"colors": {
+			"center": "#FFF06C",
+			"eyes": "#6B5D48",
+			"smile": "#6B5D48",
+			"rays": "#FFF06C"
+		}},
+
+		{"sizes": [
+			{"center": {"width": 150, "height": 150}},
+			{"ray": {"width": 10, "height": 100}},
+			{"eye": {"width": 10, "height": 25}},
+			{"smile": {"width": 30, "height": 10}}
+		]},
+
+		{"center": {
+			"top": 110, "left": 260
+		}},
+
+		{"eyes": [
+			{"top": 150, "left": 300},
+			{"top": 150, "left": 340}
+		]},
+
+		{"smile":
+			{"top": 180, "left": 310}
+		},
+
+		{"rays": [
+			{"top": 30, "left": 320, "rotate": 0},
+			{"top": 230, "left": 320, "rotate": 0},
+			{"top": 130, "left": 420, "rotate": 90},
+			{"top": 130, "left": 220, "rotate": 90},
+			{"top": 60, "left": 400, "rotate": 45},
+			{"top": 60, "left": 240, "rotate": 135},
+			{"top": 200, "left": 400, "rotate": -45},
+			{"top": 200, "left": 240, "rotate": -135}
+		]}
+	]},
+
+	{"rainbow-band": [
+		{"position": {"top": 100, "left": 0, "bottom": 0, "right": 0, "margin": "auto"}},
+
+		{"red": {"width": 700,"height": 500, "color-inital": "#9C9696", "color": "#EF7474"}},
+		{"orange": {"width": 650,"height": 450, "color-inital": "#B4AFAC", "color": "#FAB27F"}},
+		{"yellow": {"width": 600,"height": 400, "color-inital": "#D2D2C4", "color": "#FFF599"}},
+		{"green": {"width": 550,"height": 350, "color-inital": "#9CA397", "color": "#9CE596"}},
+		{"blue": {"width": 490,"height": 300, "color-inital": "#7B7E84", "color": "#8CACEB"}},
+		{"purple": {"width": 430,"height": 250, "color-inital": "#696469", "color": "#B28EFE"}}
+	]}
+]}

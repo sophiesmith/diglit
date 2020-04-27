@@ -2,13 +2,14 @@
 	{"skill": "click"},
 	{"transitions": [
 		{"star": {
-			"description": "", 
-			"duration": 2,
-			"direction": ""
+			"description": "on click, color turns yellow, shape rotates 10 deg then back to 0 deg", 
+			"duration": 0.5,
+			"direction": "rotate(10deg)"
 		}},
 		{"moon": {
-			"description": "",
-			"duration": 2
+			"description": "on win, box shadow appears around the moon",
+			"duration": 2,
+			"direction": "box-shadow: 0 0 60px 10px #fff"
 		}},
 		{"smile": {
 			"description": "on win, becomes visible", 
@@ -22,12 +23,12 @@
 		"moon": "#BCC7CB",
 		"moon-face": "#6B5D48",
 		"crater": "#879296",
-		"sky": "#0B3947"
+		"sky": "#0B3947",
 	}},
 
 	{"sizes": [
 		{"canvas": {"width": 700, "height": 500}},
-		{"star": {"width": 0, "height": }},
+		{"star": {"width": 60, "height": 60}},
 		{"moon": {"width": 150, "height": 150}},
 		{"eye": {"width": 10, "height": 25}},
 		{"smile": {"width": 30, "height": 10}},

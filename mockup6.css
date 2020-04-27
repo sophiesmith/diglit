@@ -101,7 +101,7 @@ h1 {
 	height: 280px;
 	width: 700px;
 	background-color: #737873;
-	top: 60%;
+	top: 300px;
 	z-index: 2;
 	transition: background-color ease-in 2s;
 }

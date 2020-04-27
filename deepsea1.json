@@ -1,0 +1,105 @@
+{"level": [
+	{"skill": "scroll"},
+	{"transitions": [
+		{"fish": {
+			"description": "on mouseover, flies off screen either to the left or right at random", 
+			"duration": 3,
+			"direction": "left/right: -1000px"
+		}},
+		{"fish-idle": {
+			"description": "on idle, hovers up and down slightly", 
+			"duration": 1,
+			"direction": "top: +=20, -=20"
+		}},
+		{"treasure": {
+			"description": "on click, lid opens and gold shines with a box-shadow",
+			"duration": 2,
+			"direction": "box-shadow: 0 -20px 40px 20px #fff"
+		}},
+		{"bubble": {
+			"description": "one bubble spawns every 2 seconds at a random point near the bottom of the canvas and floats up", 
+			"duration": 10,
+			"direction": "top: -40px"
+		}}
+	]},
+
+	{"colors": {
+		"fish": "#FFB673",
+		"water": "#38A9C2",
+		"bubble": "#86D3E4",
+		"treasure": "#716350",
+		"treasure-belt": "#aaadb3",
+		"treasure-clasp": "#aaadb3",
+		"treasure-lid": "#716350",
+		"treasure-ospen-lid": "#716350",
+		"treasure-inside-lid": "#524b41",
+		"gold": "#ffce1e"
+	}},
+
+	{"sizes": [
+		{"canvas": {"width": 700, "height": 500}},
+		{"fish": {"oval-width": 90, "oval-height": 50, "triangle-width": 30, "triangle-height": 60}},
+		{"bubble": {"width": 30, "height": 30}},
+		{"treasure-trunk": {"width": 200, "height": 100}},
+		{"treasure-belt": {"width": 200, "height": 20}},
+		{"treasure-clasp": {"width": 20, "height": 40}},
+		{"treasure-lid": {"width": 200, "height": 100}},
+		{"treasure-open-lid": {"width": 260, "height": 100}},
+		{"treasure-inside-lid": {"width": 200, "height": 80}},
+		{"gold": {"width": 200, "height": 80}}
+	]},
+
+	{"shapes": {
+		"fish": "oval + triangle",
+		"bubble": "circle",
+		"treasure-trunk": "rectangle",
+		"treasure-belt": "rectangle",
+		"treasure-clasp": "oval",
+		"treasure-lid": "oval",
+		"treasure-open-lid": "trapezoid",
+		"treasure-inside-lid": "rectangle",
+		"gold": "oval"
+	}},
+
+	{"treasure": [
+		{"trunk": [
+			{"top": 1100, "left": 250}
+		]},
+
+		{"belt":
+			{"top": 1100, "left": 250}
+		},
+
+		{"clasp": [
+			{"top": 1090, "left": 340}
+		]},
+
+		{"lid": [
+			{"top": 1050, "left": 250}
+		]},
+
+		{"open-lid": [
+			{"top": 1030, "left": 220}
+		]},
+
+		{"inside-lid": [
+			{"top": 1050, "left": 250}
+		]},
+
+		{"gold": [
+			{"top": 1070, "left": 250}
+		]}
+	]},
+
+	{"fish": [
+		{"top": 740, "left": 80},
+		{"top": 860, "left": 400},
+		{"top": 550, "left": 90},
+		{"top": 200, "left": 200},
+		{"top": 460, "left": 500},
+		{"top": 340, "left": 400},
+		{"top": 280, "left": 20}
+	]},
+
+	{"bubble": {"top": "rand(500, 600)", "left": "rand(20, 600)"}}
+]}
